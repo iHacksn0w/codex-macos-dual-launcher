@@ -1,0 +1,3 @@
+# Example routing field only. GO explicitly selects the official provider and
+# restores the install-time model/catalog state; it does not replace config.toml.
+model_provider = "openai"

@@ -1,0 +1,11 @@
+# Example routing fields only. The switcher merges these into the active
+# config.toml and preserves every unrelated setting.
+model_catalog_json = "~/.codex/model-catalog.local.json"
+model_provider = "Model_Studio"
+model = "deepseek-v4.1-flash"
+
+[model_providers.Model_Studio]
+name = "Model_Studio"
+base_url = "https://llm-ekqova7mnia3tsqn.cn-beijing.maas.aliyuncs.com/compatible-mode/v1"
+wire_api = "responses"
+env_key = "OPENAI_API_KEY"
